@@ -6,6 +6,7 @@
 const BaseNode = require('./base-node.js');
 const nodeTypes = require('../types/node-types.js');
 
+// 基础类型
 module.exports = class CommentNode extends BaseNode {
   constructor(comment) {
     super(nodeTypes.COMMENT);

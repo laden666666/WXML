@@ -3,6 +3,7 @@
  * @author vivaxy
  */
 
+// 基础类型
 module.exports = class BaseNode {
   constructor(type) {
     this.type = type;
